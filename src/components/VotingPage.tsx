@@ -2,7 +2,7 @@
 /* eslint-disable no-constant-binary-expression */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useAuth } from "../provider/AuthProvider";
 import { CheckCircle, AlertCircle, Vote, LogOut } from "lucide-react";
 import { useNavigate } from "react-router-dom";
@@ -480,7 +480,7 @@ export default function VotingPage() {
   
   useEffect(() => {
     const id = (currentVoter as Voter)?.id ?? (voter as Voter)?.id ?? null;
-    // console.log("Voter ID (current):", id, "context voter:", voter, "currentVoter:", currentVoter);
+    console.log("Voter ID (current):", id, "context voter:", voter, "currentVoter:", currentVoter);
   }, [currentVoter, voter]);
 
   if (loading) {
