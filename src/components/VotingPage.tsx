@@ -533,7 +533,7 @@ return (
             )}
           </div>
           <div className="bg-blue-50 border border-blue-200 rounded-2xl p-4 text-sm text-gray-700">
-            <p><strong>Status:</strong> {electionConfig?.isActive ? "🟢 Active" : "🔴 Inactive"}</p>
+            <p><strong>Status:</strong> "🟢 Active"</p>
             <p><strong>Allowed:</strong> {maxAllowed} {maxAllowed === 1 ? "vote" : "votes"}</p>
           </div>
         </div>

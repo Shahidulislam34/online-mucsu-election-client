@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="/about"
+                  href="https://mbstu.ac.bd/"
                   className="text-gray-400 hover:text-white transition-colors duration-300"
                 >
                   About Us

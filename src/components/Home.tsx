@@ -298,7 +298,7 @@ const Home: React.FC = () => {
           <div className="text-center py-10 text-gray-600">No candidates found.</div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
-            {candidates.slice(0, 8).map((candidate) => (
+            {candidates.slice(0, 12).map((candidate) => (
               <div
                 key={candidate.id}
                 className="bg-white rounded-2xl shadow-md hover:shadow-2xl transition-shadow duration-300 p-6 text-center border border-gray-100"

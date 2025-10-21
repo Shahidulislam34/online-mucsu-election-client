@@ -76,16 +76,7 @@ const Navbar: React.FC = () => {
                 Home
               </Link>
 
-              {!user && (
-                <>
-                  <Link to="/login" className="text-white hover:text-yellow-300 font-semibold text-lg transition-colors duration-300">
-                    Login
-                  </Link>
-                  <Link to="/register" className="text-white hover:text-yellow-300 font-semibold text-lg transition-colors duration-300">
-                    Register
-                  </Link>
-                </>
-              )}
+            
 
               <Link to="/results" className="text-white hover:text-yellow-300 font-semibold text-lg transition-colors duration-300">
                 Results
@@ -98,6 +89,17 @@ const Navbar: React.FC = () => {
               <Link to="/admin-dashboard" className="text-white hover:text-yellow-300 font-semibold text-lg transition-colors duration-300">
                 Admin
               </Link>
+
+                {!user && (
+                <>
+                  <Link to="/login" className="text-white hover:text-yellow-300 font-semibold text-lg transition-colors duration-300">
+                    Login
+                  </Link>
+                  <Link to="/register" className="text-white hover:text-yellow-300 font-semibold text-lg transition-colors duration-300">
+                    Register
+                  </Link>
+                </>
+              )}
 
               {user && (
                 <div className="relative" ref={profileRef}>
