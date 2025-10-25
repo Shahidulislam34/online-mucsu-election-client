@@ -66,8 +66,18 @@ const Navbar: React.FC = () => {
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex-shrink-0">
-              <Link to="/" className="text-2xl font-extrabold text-white hover:text-yellow-300 transition-colors duration-300">
-                MUCSU Election
+              {/* <Link to="/" className="text-2xl font-extrabold text-white hover:text-yellow-300 transition-colors duration-300">
+                MUCSU Elections
+              </Link> */}
+              <Link to="/" className="flex items-center space-x-3 group">
+                  <img 
+                    src="https://mbstu.ac.bd/wp-content/uploads/2023/08/MBSTU_logo.png" 
+                    alt="MBSTU Logo" 
+                    className="h-12 w-12 object-contain bg-white rounded-full p-1"
+                  />
+                <span className="text-2xl font-extrabold text-white hover:text-yellow-300 transition-colors duration-300">
+                  MUCSU ELECTION 2025
+                </span>
               </Link>
             </div>
 

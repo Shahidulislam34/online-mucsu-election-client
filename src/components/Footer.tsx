@@ -113,7 +113,7 @@ const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="mt-8 pt-6 border-t border-gray-700 text-center">
           <p className="text-sm text-gray-400">
-            © {currentYear} MUCSU Election. All rights reserved. Designed with ❤️ by the xAI Team.
+            © {currentYear} MUCSU Election. All rights reserved. Designed with ❤️ by the mbstu computing society.
           </p>
         </div>
       </div>

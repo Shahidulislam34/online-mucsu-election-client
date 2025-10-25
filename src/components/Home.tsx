@@ -268,7 +268,7 @@ const Home: React.FC = () => {
         <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
         <div className="relative z-10 max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-extrabold mb-4 drop-shadow-lg">
-            MUCSU Election 2025
+            WELCOME TO MUCSU ELECTION,2025
           </h1>
           <p className="text-lg md:text-xl text-gray-100 mb-8 leading-relaxed">
             Shape the future of your university. Cast your vote for transparent, fair, and digital democracy.
