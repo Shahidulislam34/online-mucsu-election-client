@@ -76,7 +76,7 @@ const Navbar: React.FC = () => {
                     className="h-12 w-12 object-contain bg-white rounded-full p-1"
                   />
                 <span className="text-2xl font-extrabold text-white hover:text-yellow-300 transition-colors duration-300">
-                  MUCSU ELECTION 2025
+                  MUCSU ELECTION
                 </span>
               </Link>
             </div>
