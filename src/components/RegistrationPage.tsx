@@ -36,7 +36,7 @@ export default function RegistrationPage() {
 
   // Allowed MBSTU IT student emails:
   // it21|22|23|24|25 + 001..060  => it21001@mbstu.ac.bd ... it25060@mbstu.ac.bd
-  const IT_EMAIL_REGEX = /^it(21|22|23|24|25)(00[1-9]|0[1-5][0-9]|060)@mbstu\.ac\.bd$/i;
+  const IT_EMAIL_REGEX = /^ce(21|22|23|24|25)(00[1-9]|0[1-5][0-9]|060)@mbstu\.ac\.bd$/i;
 
   const validateEmail = (raw: string) => {
     const e = String(raw || "").trim().toLowerCase();
