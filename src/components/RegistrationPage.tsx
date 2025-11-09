@@ -134,7 +134,7 @@ export default function RegistrationPage() {
                   setEmailError(null);
                 }}
                 required
-                placeholder="it21001@mbstu.ac.bd"
+                placeholder="cs21001@mbstu.ac.bd"
                 className={`w-full pl-10 pr-3 py-2 border rounded-lg focus:ring-2 outline-none transition ${
                   emailError ? "border-red-400 focus:ring-red-200" : "border-gray-300 focus:ring-indigo-400"
                 }`}
